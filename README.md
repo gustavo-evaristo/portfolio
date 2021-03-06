@@ -1,13 +1,8 @@
 # Portfolio.
 Código utilizado no site gustavoevaristo.com.br
 
-### Highlights
-1. Setup is very easy and you get a portfolio template of your own for free.
-2. To add your details, you just need simple editing skills. No code changes required!
-3. Simple and Fast website User Interface.
-
-### Website UI Gallary
-#### About Tab
+### Galeria do site
+#### Inicio
 ![About Tab](https://i.postimg.cc/WpCWc7gB/1.png)
 
 #### Skills Tab
