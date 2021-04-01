@@ -1,0 +1,136 @@
+html {
+  width: 100vw;
+  background-color: #000000;
+}
+
+.container {
+    width: 85%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  margin-top: 4vh;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;  
+}
+
+ul li {
+  margin-left: 5rem;
+  list-style-type: none;
+}
+
+header h2 {
+  font-size: 24px;
+  color: #1fac73;
+  font-weight: 600;
+  cursor: default;
+}
+
+header h2 span {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.homeContainer {
+  margin-top: 13vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socialContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.socialContainer i {
+  color: #ffffff;
+  font-size: 21px;
+  margin: 8px 0;
+  cursor: pointer
+}
+
+.textContainer h1 {
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.textContainer h1 span{
+  color: #1fac73;
+}
+
+.optionsContainer {
+  margin-top: 8vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.homeButton{
+  background-color: #1fac73;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 0 40px #338b6857;
+}
+
+.cv {
+  background: #121212;
+  box-shadow: 0 0 40px #3b3b3b57;
+}
+
+.img {
+  text-align: center
+}
+
+.img img {
+  width: 550px;
+}
+
+
+
+
+
+
+/* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
+e 10px de altura para a barra horizontal */
+::-webkit-scrollbar {
+  width:8px;
+  }
+   
+  /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+  ::-webkit-scrollbar-track {
+  background:#121212;
+  }
+   
+  /* aqui é a alça da barra, que demonstra a altura que você está na página
+  estou colocando uma cor azul clara nela*/
+  ::-webkit-scrollbar-thumb {
+  background: #1fac73;
+  }
