@@ -19,12 +19,12 @@ let homeCvButton = document.querySelectorAll('.cv')
 for(let i = 0; i < homeCvButton.length; i++)
     homeCvButton[i].addEventListener('mouseover', () => {
         homeCvButton[i].style.transition = '0.3s'
-        homeCvButton[i].style.background = '#178d5e'
+        homeCvButton[i].style.background = '#121212'
     })
 
 
 for(let i = 0; i < homeCvButton.length; i++) 
     homeCvButton[i].addEventListener('mouseleave', () => {
         homeCvButton[i].style.transition = '0.3s'
-        homeCvButton[i].style.background = '#121212'
+        homeCvButton[i].style.background = '#202024'
     })

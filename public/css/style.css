@@ -4,11 +4,11 @@ html {
 }
 
 .container {
-    width: 85%;
-    height: 1000px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  animation: fadein 1.8s;
 }
 
 header {
@@ -23,7 +23,7 @@ ul {
 }
 
 ul li {
-  margin-left: 5rem;
+  margin-left: 4rem;
   list-style-type: none;
 }
 
@@ -36,7 +36,7 @@ header h2 {
 
 header h2 span {
   color: #ffffff;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 ul li a {
@@ -51,6 +51,7 @@ ul li a {
   width: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -60,8 +61,12 @@ ul li a {
   flex-direction: column;
 }
 
-.socialContainer i {
+i {
   color: #ffffff;
+  cursor: pointer;
+}
+
+.socialContainer i {
   font-size: 21px;
   margin: 8px 0;
   cursor: pointer
@@ -72,6 +77,7 @@ ul li a {
   font-size: 70px;
   font-weight: 700;
   text-align: center;
+  cursor: default;
 }
 
 .textContainer h1 span{
@@ -83,6 +89,7 @@ ul li a {
   width: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-around;
 }
@@ -97,12 +104,18 @@ ul li a {
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
-  box-shadow: 0 0 40px #338b6857;
+  box-shadow: 0 0 20px #338b6857;
+}
+
+.homeButton:hover, .cv:hover {
+  content: '\00bb';
+  transition: ease-in;
+  transform: scale(1.05) ;
 }
 
 .cv {
-  background: #121212;
-  box-shadow: 0 0 40px #3b3b3b57;
+  background: #202024;
+  box-shadow: 0 0 20px #3b3b3b57;
 }
 
 .img {
@@ -113,24 +126,7 @@ ul li a {
   width: 550px;
 }
 
-
-
-
-
-
-/* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
-e 10px de altura para a barra horizontal */
-::-webkit-scrollbar {
-  width:8px;
-  }
-   
-  /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
-  ::-webkit-scrollbar-track {
-  background:#121212;
-  }
-   
-  /* aqui é a alça da barra, que demonstra a altura que você está na página
-  estou colocando uma cor azul clara nela*/
-  ::-webkit-scrollbar-thumb {
-  background: #1fac73;
-  }
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

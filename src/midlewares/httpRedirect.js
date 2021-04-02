@@ -16,4 +16,4 @@ const httpRedirect = async (req, res, next) => {
  
 }
 
-export default httpRedirect
+module.exports = httpRedirect

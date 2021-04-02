@@ -1,12 +1,16 @@
-import express from 'express'
+const express = require('express')
 
-import httpRedirect from './midlewares/httpRedirect.js'
+const path = require('path')
+
+const httpRedirect = require('./src/midlewares/httpRedirect.js')
 
 //Iniciando o app
 const app = express()
 
 //Permitindo os arquivos estáticos
 app.use(express.static('public'))
+
+app.use('/uploads', express.static(path.join(__dirname, 'public', 'uploads')))
 
 //Definido o template engine
 app.set('view engine', 'ejs')
@@ -18,4 +22,4 @@ app.get('/', (req, res) => res.render('index'))
 
 app.get('*', (req, res) => res.redirect('/'))
 
-export default app
+module.exports = app

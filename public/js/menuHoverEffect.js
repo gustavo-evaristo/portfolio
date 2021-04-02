@@ -1,4 +1,4 @@
-let menuItems = document.querySelectorAll('ul li a')
+let menuItems = document.querySelectorAll('ul li a, ul li i')
 
 for(let i = 0; i < menuItems.length; i++)
     menuItems[i].addEventListener('mouseover', () => {
