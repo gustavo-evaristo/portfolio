@@ -12,8 +12,10 @@ changeIcon.addEventListener('click', () => {
 
     if (currentClass == 'fa-sun'){
 
-        changeIcon.classList.remove('fa-sun')
-        changeIcon.classList.add('fa-moon')
+        setTimeout(() => {
+            changeIcon.classList.remove('fa-sun')
+            changeIcon.classList.add('fa-moon')
+        }, 200)
 
         html.transition = '0.4s'
         html.background = '#f1f1f1'
@@ -42,8 +44,10 @@ changeIcon.addEventListener('click', () => {
 
     } else {
 
-        changeIcon.classList.remove('fa-moon')
-        changeIcon.classList.add('fa-sun')
+        setTimeout(() => {
+            changeIcon.classList.remove('fa-moon')
+            changeIcon.classList.add('fa-sun')
+        }, 200)
 
         html.transition = '0.4s'
         html.background = '#000000'
