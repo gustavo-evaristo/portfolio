@@ -129,14 +129,14 @@ i {
   box-shadow: 0 0 20px #338b6857;
 }
 
-.homeButton:hover, .cv:hover {
-  transition: ease-in;
-  transform: scale(1.05) ;
-}
-
 .cv {
   background: #202024;
   box-shadow: 0 0 20px #3b3b3b57;
+}
+
+.homeButton:hover, .cv:hover {
+  transition: ease-in;
+  transform: scale(1.05) ;
 }
 
 .img {
@@ -147,24 +147,99 @@ i {
   width: 550px;
 }
 
+/* Tela sobre mim */
+.aboutContainer {
+  margin-top: 30vh;
+  height: 80vh;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.aboutImage img {
+  width: 400px;
+}
+
+.aboutContent {
+  margin: -3vh 5vw 0;
+}
+
+.aboutContent h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.aboutContent .aboutLine {
+  width: 5vw;
+  height: 0.3vh;
+  background: #1fac73;
+  margin-top: 0.7vh;
+}
+
+.aboutContent p {
+  margin: 1.5vh 0;
+  color: #c1c1c1;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.aboutContent p:first-child {
+  margin: 0;
+  color: #1fac73;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.cv2 {
+  background: #1fac73;
+  box-shadow: 0 0 20px #3b3b3b57;
+  border-radius: 8px;
+}
+
+.homeButton:hover, .cv:hover {
+  transition: ease-in;
+  transform: scale(1.05) ;
+}
+
+.socialContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.socialContainer i {
+  font-size: 21px;
+  margin: 8px 0;
+  cursor: pointer
+}
+
+
 /* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
 e 10px de altura para a barra horizontal */
 ::-webkit-scrollbar {
-  width:10px;
-  height: 10px;
-  }
+  width: 5px;
+  height: 5px;
+}
    
   /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
-  ::-webkit-scrollbar-track {
-  background:#202024;
-  }
+::-webkit-scrollbar-track {
+  background: #0d1110;
+}
    
   /* aqui é a alça da barra, que demonstra a altura que você está na página
   estou colocando uma cor azul clara nela*/
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: #1fac73;
-  }
+}
 
+/* Animações */
 @keyframes blink {
   0%, 100%{
     opacity: 1;

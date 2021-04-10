@@ -17,11 +17,15 @@
     <script src="/js/loadPage.js" defer></script>
 </head>
 <body>
+    <!-- Tela de Loading -->
     <div class="loadPage">
         <p id="loadText"></p>
     </div>
 
+    <!-- Container -->
     <div class="container">
+
+        <!-- Menu -->
         <header>
             <h2>Gustavo <span>Evaristo</span></h2>
             <ul>
@@ -34,6 +38,7 @@
             </ul>
         </header>
 
+        <!-- Página inical que contem os links da rede social e o texto principal -->
         <main class="homeContainer">
 
             <div class="socialContainer">
@@ -44,13 +49,14 @@
             </div> 
 
             <div class="textContainer">
-                <h1>Transformando <span>Idéias</span><br>em Realidade</h1>
+                <h1>Transformando <span>Idéias</span><br>em Realidade<span>.</span></h1>
             </div>
 
             <div class="socialContainer"></div>
 
         </main>
 
+        <!-- Sessão que contem os botoes de cv, contato e a foto principal -->
         <section class="optionsContainer">
 
             <div>
@@ -62,10 +68,40 @@
             </div>
 
             <div>
-                <a href="/uploads/curriculo.pdf" target="_blank"><button class="homeButton cv">Download CV</button></a>
+                <a href="/cv" target="_blank"><button class="homeButton cv">Download CV</button></a>
             </div>
 
         </section>
+
+        <!-- Tela sobre mim -->
+
+        <section class="aboutContainer">
+            <div class="aboutImage">
+                <img src="/images/me.svg" alt="">
+            </div>
+
+            <div class="aboutContent">
+                <p>Descubra +</p>
+                <h2>Sobre mim</h2>
+                <div class="aboutLine"></div>
+                <p>Jovem focado, com experiência progressiva na área e apaixonado por tecnologia. Oferecendo conhecimentos em desenvolvimento de sistemas, suporte aos usuários, com aptidão em solucionar problemas e desenvolver melhorias para todos os tipos de situações.</p>
+                
+                <div class="aboutInfo">
+                    <a href="/cv" target="_blank"><button class="homeButton cv2">Download CV</button></a>
+                </div>
+
+            </div>
+
+            <div class="socialContainer">
+                <a href="https://api.whatsapp.com/send?phone=5511970256279" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/gu.hevaristo/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/gustavo-evaristo/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.github.com/gustavo-evaristo/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:contato@gustavoevaristo.com.br"><i class="fas fa-envelope-open-text"></i></a>
+            </div> 
+
+        </section>
+
     </div>
 </body>
 </html>

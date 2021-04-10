@@ -1,4 +1,4 @@
-let homeIcons = document.querySelectorAll('.homeContainer .socialContainer i')
+let homeIcons = document.querySelectorAll('.socialContainer i')
 
 for(let i = 0; i < homeIcons.length; i++)
     homeIcons[i].addEventListener('mouseover', () => {
