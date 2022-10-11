@@ -1,22 +1,8 @@
 import React from 'react';
-import { About, Button, Header, PersonalInfo, WorkHistory} from '../../components';
-import { Container, Content, Heading, Porjects } from './styles';
+import { About, Button, Header, PersonalInfo, WorkHistory, MyProjects } from '../../components';
+import { Container, Content, Heading } from './styles';
 
 export function Home () {
-  const projects = [
-    '/project1-banner.jpg',
-    '/project2-banner.jpg',
-    '/project3-banner.jpg',
-    '/project4-banner.jpg',
-    '/project5-banner.jpg',
-    '/project6-banner.jpg',
-    '/project7-banner.jpg',
-    '/project8-banner.jpg',
-    '/project9-banner.jpg',
-    '/project10-banner.jpg',
-    '/project11-banner.jpg',
-    '/project12-banner.jpg',
-  ];
 
   return (
     <Container>
@@ -42,23 +28,7 @@ export function Home () {
 
         <WorkHistory />
 
-        <Porjects id="projects">
-          <div>
-            <h3>03. <span>Meus Projetos</span></h3>
-            <hr />
-          </div>
-
-          <div>
-            {
-              projects.map(image => (
-                <a key={image} href={image} target="_blank" rel="noreferrer">
-                  <img key={image} src={image}/>
-                </a>
-              ))
-            }
-          </div>
-
-        </Porjects>
+        <MyProjects />
       </Content>
     </Container>
   );

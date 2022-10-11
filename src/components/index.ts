@@ -3,3 +3,4 @@ export * from './Button';
 export * from './PersonalInfo';
 export * from './About';
 export * from './WorkHistory';
+export * from './MyProjects';
