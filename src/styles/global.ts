@@ -1,6 +1,18 @@
 import { globalCss } from './index';
 
 export const globalStyles = globalCss({
+  html: {
+    scrollBehavior: 'smooth',
+  },
+
+  a: {
+    textDecoration: 'none',
+  },
+
+  ul: {
+    listStyle: 'none',
+  },
+
   '*': {
     padding: 0,
     margin: 0,

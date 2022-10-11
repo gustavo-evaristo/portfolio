@@ -39,14 +39,14 @@ export function Header() {
       <Content>
         <ul>
           <li>
-            <a>
+            <a href="#about">
               <span>01. </span>
             Sobre
             </a>
           </li>
 
           <li>
-            <a>
+            <a href="#experience">
               <span>02. </span>
             Experiência
             </a>

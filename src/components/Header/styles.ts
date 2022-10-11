@@ -80,13 +80,8 @@ export const Content = styled('nav', {
   '& ul': {
     display: 'flex',
     gap: '1.75rem',
-    listStyle : 'none',
-
-    '$bp2': {
-      display: 'none',
-    },
     
-    '& li': {
+    '& li > a': {
       color: '$gray_300',
       fontSize: '0.75rem',
       transition: '0.2s',
