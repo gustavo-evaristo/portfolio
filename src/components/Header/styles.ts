@@ -12,6 +12,7 @@ export const Container = styled('header', {
   position: 'fixed',
   backgroundColor: '$blue_800',
   transition: '0.8s',
+  zIndex: 100,
 
   
   variants: {

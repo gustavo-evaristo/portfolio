@@ -16,15 +16,15 @@ export const Container = styled('section', {
       fontWeight: 400,
   
       '& span': {
-        fontFamily: '&sans',
+        fontFamily: '$sans',
         color: '$gray_300',
-        fontSize: '1.7rem',
+        fontSize: '1.6rem',
         fontWeight: 600,
       }
     },
 
     '& hr': {
-      width: '28vw',
+      width: '22vw',
       border: '0.5px solid $blue_600',
       marginTop: 5,
     }

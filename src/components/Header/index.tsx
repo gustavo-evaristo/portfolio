@@ -53,7 +53,7 @@ export function Header() {
           </li>
 
           <li>
-            <a>
+            <a href="#projects">
               <span>03. </span>
             Trabalhos
             </a>
