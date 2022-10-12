@@ -6,3 +6,4 @@ export * from './WorkHistory';
 export * from './MyProjects';
 export * from './Card';
 export * from './Contact';
+export * from './SectionTitle';

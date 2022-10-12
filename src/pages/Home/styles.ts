@@ -3,7 +3,6 @@ import { styled } from '../../styles';
 export const Container = styled('main', {
   width: '100%',
   maxWidth: 1400,
-  paddingBottom: 100
 });
 
 export const Content = styled('div', {

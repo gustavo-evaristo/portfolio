@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FiTriangle } from 'react-icons/fi';
+import { SectionTitle } from '../SectionTitle';
 import { Container, WorkList } from './styles';
 
 export function WorkHistory () {
@@ -29,10 +30,7 @@ export function WorkHistory () {
 
   return (
     <Container id="experience">
-      <div>
-        <h3>02. <span>Experiência</span></h3>
-        <hr />
-      </div>
+      <SectionTitle sectionNumber='02' title='Experiência' style={{ marginBottom: 50 }}/>
 
       <div>
         <ul>

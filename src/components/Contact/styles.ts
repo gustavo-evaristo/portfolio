@@ -4,7 +4,6 @@ export const Container = styled('section', {
   width: '100%',
   marginTop: 200,
   display: 'flex',
-  justifyContent: 'center',
   alignItems: 'center',
   flexDirection: 'column',
   textAlign: 'center',
@@ -30,5 +29,15 @@ export const Container = styled('section', {
     width: 600,
     fontWeight: 400,
     marginBottom: 50,
+  },
+  
+  '& footer': {
+    marginTop: 240,
+    paddingBottom: 32,
+    
+    '& h5': {
+      fontWeight: 400,
+      color: '$gray_400',
+    }
   }
 });

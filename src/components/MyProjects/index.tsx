@@ -1,4 +1,5 @@
 import React from 'react';
+import { SectionTitle } from '../SectionTitle';
 import { Container } from './styles';
 
 export function MyProjects () {
@@ -57,10 +58,7 @@ export function MyProjects () {
 
   return (
     <Container id="projects">
-      <div>
-        <h3>03. <span>Alguns de Meus Projetos</span></h3>
-        <hr />
-      </div>
+      <SectionTitle sectionNumber='03' title='Alguns de Meus Projetos' />
 
       <div>
         {

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Description, ContentSkills } from './styles';
 import { FiTriangle } from 'react-icons/fi';
+import { SectionTitle } from '../SectionTitle';
 
 
 export function About () {
@@ -10,10 +11,8 @@ export function About () {
 
   return (
     <Container id="about">
-      <div>
-        <h3>01. <span>Sobre</span></h3>
-        <hr />
-      </div>
+      
+      <SectionTitle sectionNumber='01' title='Sobre' />
 
       <Description>
         <p>

@@ -5,31 +5,6 @@ export const Container = styled('section', {
   paddingLeft:  140,
   flexDirection: 'column',
 
-  '& div:first-child': {
-    display: 'flex',
-    alignItems: 'center',
-    gap: 20,
-    marginBottom: 40,
-
-    '& h3': {
-      color: '$green_300',
-      fontWeight: 400,
-      
-      '& span': {
-        fontFamily: '$sans',
-        color: '$gray_300',
-        fontSize: '1.6rem',
-        fontWeight: 700,
-      }
-    },
-
-    '& hr': {
-      width: '22vw',
-      border: '0.5px solid $blue_600',
-      marginTop: 5,
-    },
-  },
-
   '& div:nth-child(2)': {
     display: 'flex',
     

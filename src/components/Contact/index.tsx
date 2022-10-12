@@ -13,6 +13,10 @@ export function Contact () {
       <h3>Entre em Contato</h3>
       <h4>Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</h4>
       <Button style={{ padding: 20 }} text='Enviar Mensagem' onClick={toWpp} />
+
+      <footer>
+        <h5>Desenvolvido por Gustavo Evaristo</h5>
+      </footer>
     </Container>
   );
 }
