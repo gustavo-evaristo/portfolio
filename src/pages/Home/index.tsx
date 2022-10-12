@@ -1,8 +1,12 @@
 import React from 'react';
-import { About, Button, Header, PersonalInfo, WorkHistory, MyProjects } from '../../components';
+import { About, Button, Header, PersonalInfo, WorkHistory, MyProjects, Card, Contact } from '../../components';
 import { Container, Content, Heading } from './styles';
 
 export function Home () {
+
+  function toProjects () {
+    window.location.href = '#projects';
+  }
 
   return (
     <Container>
@@ -21,7 +25,7 @@ export function Home () {
 
           <h4>Sou um analista de sistemas especializado em construir e projetar soluções digitais excepcionais. Atualmente, estou focado na construção de sistemas para a internet e aplicativos mobile. Vou te ajudar a transformar a sua ideia em <span>realidade</span>.</h4>
 
-          <Button text='Conheça meus projetos' /> 
+          <Button text='Conheça meus projetos' onClick={toProjects} /> 
         </Heading>
 
         <About />
@@ -29,6 +33,10 @@ export function Home () {
         <WorkHistory />
 
         <MyProjects />
+
+        <Card />
+        
+        <Contact />
       </Content>
     </Container>
   );

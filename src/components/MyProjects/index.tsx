@@ -30,7 +30,7 @@ export function MyProjects () {
     },
     {
       banner: '/project7-banner.jpg',
-      url: '/project7.jpg'
+      url: 'https://metalloglogistica.com.br'
     },
     {
       banner: '/project8-banner.jpg',
@@ -58,7 +58,7 @@ export function MyProjects () {
   return (
     <Container id="projects">
       <div>
-        <h3>03. <span>Meus Projetos</span></h3>
+        <h3>03. <span>Alguns de Meus Projetos</span></h3>
         <hr />
       </div>
 
@@ -71,7 +71,6 @@ export function MyProjects () {
           ))
         }
       </div>
-
     </Container>
   );
 }

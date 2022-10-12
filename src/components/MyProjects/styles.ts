@@ -30,7 +30,7 @@ export const Container = styled('section', {
     }
   },
 
-  '& div:last-child': {
+  '& div:nth-child(2)': {
     marginTop: 48,
     display: 'flex',
     flexWrap: 'wrap',
@@ -47,6 +47,5 @@ export const Container = styled('section', {
         filter: 'brightness(100%)',
       }
     }
-  }
-
+  },
 });
