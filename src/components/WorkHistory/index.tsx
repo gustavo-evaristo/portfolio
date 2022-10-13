@@ -8,7 +8,7 @@ export function WorkHistory () {
   const companys = [
     {
       name: 'Koob Jobs',
-      acting: 'CTO',
+      acting: 'Desenvolvedor Full Stack',
       description: ['Trabalhei no desenvolvimento dos sistemas da empresa com as tecnologias React, React Native e Node.', 'Lider técnico do time de desenvolvimento e responsável por todo o setor de tecnologias da empresa.'],
       date: 'Jun 2021 - Presente'
     },

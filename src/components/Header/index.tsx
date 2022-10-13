@@ -6,6 +6,10 @@ export function Header() {
   const [lastScrollPosition, setLastScrollPosition] = useState(0);
   const [showHeader, setShowHeader] = useState(true);
   const [shadow, setShadow] = useState(false);
+
+  function toResume () {
+    window.open('/me.pdf', '_blank');
+  }
   
   useEffect(() => {
     document.addEventListener('scroll', () => {
@@ -67,7 +71,7 @@ export function Header() {
           </li>
         </ul>
 
-        <Button text='Resumo'/>
+        <Button text='Resumo' onClick={toResume} />
       </Content>
 
     </Container>
