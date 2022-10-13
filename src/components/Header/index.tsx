@@ -64,7 +64,7 @@ export function Header() {
           </li>
 
           <li>
-            <a>
+            <a href="#contact">
               <span>04. </span>
             Contato
             </a>

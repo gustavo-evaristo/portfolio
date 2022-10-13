@@ -8,10 +8,10 @@ export function Contact () {
   }
   
   return (
-    <Container>
+    <Container id="contact">
       <span>04. Próximo Passo</span>
       <h3>Entre em Contato</h3>
-      <h4>Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</h4>
+      <h4>Vamos conversar! estou a disposição para entender o seu momento, colocar sua ideia em prática e desenvolver o seu projeto.</h4>
       <Button style={{ padding: 20 }} text='Enviar Mensagem' onClick={toWpp} />
 
       <footer>
