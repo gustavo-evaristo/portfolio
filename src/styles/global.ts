@@ -19,7 +19,7 @@ export const globalStyles = globalCss({
     fontFamily: '$mono',
     boxSizing: 'border-box',
     scrollbarColor: 'red',
-    // userSelect: 'none'
+    userSelect: 'none'
   },
 
   body: {

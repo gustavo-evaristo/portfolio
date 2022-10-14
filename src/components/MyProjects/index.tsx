@@ -7,7 +7,7 @@ export function MyProjects () {
   const projects = [
     {
       banner: '/project1-banner.jpg',
-      url: '/project1.jpg'
+      url: 'https://koobjob.com.br'
     },
     {
       banner: '/project2-banner.jpg',
@@ -23,11 +23,11 @@ export function MyProjects () {
     },
     {
       banner: '/project5-banner.jpg',
-      url: '/project5.jpg'
+      url: 'https://www.grupofreitas.com.br'
     },
     {
       banner: '/project6-banner.jpg',
-      url: 'https://metalsecurit.com.br/'
+      url: 'https://metalsecurit.com.br'
     },
     {
       banner: '/project7-banner.jpg',
@@ -43,7 +43,7 @@ export function MyProjects () {
     },
     {
       banner: '/project10-banner.jpg',
-      url: 'https://josuefelixadvogado.com/'
+      url: 'https://josuefelixadvogado.com'
     },
     {
       banner: '/project11-banner.jpg',
