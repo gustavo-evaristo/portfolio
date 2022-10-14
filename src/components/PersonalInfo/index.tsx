@@ -27,8 +27,8 @@ export function PersonalInfo () {
       </ContentSocial>
 
       <ContentMail>
-        <a href="mailto:gug.henri1@gmail.com.br" target="_blank" rel='noreferrer'>
-          gug.henri1@gmail.com.br
+        <a href="mailto:gug.henri1@gmail.com" target="_blank" rel='noreferrer'>
+          gug.henri1@gmail.com
         </a>
         <Divisor/>
       </ContentMail>
