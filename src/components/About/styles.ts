@@ -1,10 +1,14 @@
 import { styled } from '../../styles';
 
 export const Container = styled('section', {
-  marginTop: 320,
-  paddingLeft: 32,
+  marginTop: 200,
   display: 'flex',
   flexDirection: 'column',
+  
+  '@media (min-width: 1000px)': {
+    marginTop: 320,
+    paddingLeft: 32,
+  }
 });
 
 export const Description = styled('div', {
@@ -15,10 +19,10 @@ export const Description = styled('div', {
 
   '@media (max-width: 1024px)': {
     flexWrap: 'wrap',
-    flexDirection: 'column-reverse',
+    flexDirection: 'column',
 
     '& p': {
-      marginTop: 24,
+      marginBottom: 32,
     },
   },
 
@@ -28,6 +32,7 @@ export const Description = styled('div', {
     fontSize: '1rem',
     lineHeight: 1.7,
     paddingRight: 42,
+    maxWidth: 500,
   },
 
   '& span': {
@@ -36,16 +41,22 @@ export const Description = styled('div', {
   
   '& img': {
     alignSelf: 'flex-start',
-    width: 350,
-    height: 350,
+    width: 250,
+    height: 250,
     objectFit: 'cover',
     borderRadius: 6,
+    
+    '@media (min-width: 550px)': {
+      width: 350,
+      height: 350,
+    }
   },
 
 });
 
 export const ContentSkills = styled('ul', {
-  width: 400,
+  width: '100%',
+  maxWidth: 400,
   marginTop: 20,
   columns: 2,
   color: '$gray_400',

@@ -16,9 +16,17 @@ export const Container = styled('section', {
   
   '& h3': {
     color: '$gray_300',
-    fontSize: '3rem',
+    fontSize: '1.5rem',
     fontFamily: '$sans',
     margin: '12px 0 16px',
+
+    '@media (min-width: 468px)': {
+      fontSize: '2rem',
+    },
+
+    '@media (min-width: 700px)': {
+      fontSize: '3rem',
+    },
   },
   
   '& h4': {
@@ -26,9 +34,10 @@ export const Container = styled('section', {
     fontSize: '1rem',
     lineHeight: 1.5,
     fontFamily: '$sans',
-    width: 600,
+    maxWidth: 600,
     fontWeight: 400,
     marginBottom: 50,
+    
   },
   
   '& footer': {
@@ -38,6 +47,11 @@ export const Container = styled('section', {
     '& h5': {
       fontWeight: 400,
       color: '$gray_400',
+      fontSize: '0.6rem',
+      
+      '@media (min-width: 400px)': {
+        fontSize: '0.8rem',
+      },
     }
   }
 });

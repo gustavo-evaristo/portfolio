@@ -12,8 +12,12 @@ export const Container = styled('div', {
     '& span': {
       fontFamily: '$sans',
       color: '$gray_300',
-      fontSize: '1.6rem',
       fontWeight: 600,
+      fontSize: '1.2rem',
+      
+      '@media (min-width: 450px)': {
+        fontSize: '1.6rem',
+      },
     }
   },
 

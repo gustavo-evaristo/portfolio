@@ -19,25 +19,45 @@ export const Heading = styled('section', {
 
   '& h1': {
     color: '$gray_300',
-    fontSize: '4.1rem',
+    fontSize: '2rem',
     fontFamily: '$sans',
     margin: '14px 0 10px 0',
+    
+    '@media (min-width: 700px)': {
+      fontSize: '3.5rem',
+    },
+
+    '@media (min-width: 950px)': {
+      fontSize: '4.1rem',
+    }
   },
   
   '& h2': {
     color: '$gray_400',
-    fontSize: '4.1rem',
+    fontSize: '1.6rem',
     fontFamily: '$sans',
+
+    '@media (min-width: 700px)': {
+      fontSize: '3rem',
+    },
+
+    '@media (min-width: 950px)': {
+      fontSize: '4rem',
+    }
   },
   
   '& h4': {
     maxWidth: 650,
     color: '$gray_400',
-    fontSize: '1rem',
+    fontSize: '0.85rem',
     fontWeight: 400,
     fontFamily: '$sans',
     lineHeight: 1.7,
     margin: '18px 0 40px',
+
+    '@media (min-width: 700px)': {
+      fontSize: '1rem',
+    },
 
     '& span': {
       fontFamily: '$sans'
@@ -45,6 +65,10 @@ export const Heading = styled('section', {
   },
 
   '& button': {
-    padding: '20px 32px',
+    padding: '16px 20px',
+
+    '@media (min-width: 700px)': {
+      padding: '20px 32px',
+    },
   }
 });

@@ -55,6 +55,10 @@ export const Content = styled('nav', {
   '& ul': {
     display: 'flex',
     gap: '1.75rem',
+
+    '@media (max-width: 800px)': {
+      display: 'none',
+    },
     
     '& li > a': {
       color: '$gray_300',

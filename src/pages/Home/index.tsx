@@ -30,7 +30,7 @@ export function Home () {
 
         <About />
 
-        <WorkHistory />
+        {/* <WorkHistory /> */}
 
         <MyProjects />
 

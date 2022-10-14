@@ -11,7 +11,8 @@ export function Contact () {
     <Container id="contact">
       <span>04. Próximo Passo</span>
       <h3>Entre em Contato</h3>
-      <h4>Vamos conversar! estou a disposição para entender o seu momento, colocar sua ideia em prática e desenvolver o seu projeto.</h4>
+      <h4>Vamos conversar! estou a disposição para entender o seu momento, colocar suas ideias em prática e desenvolver o seu projeto.</h4>
+      
       <Button style={{ padding: 20 }} text='Enviar Mensagem' onClick={toWpp} />
 
       <footer>

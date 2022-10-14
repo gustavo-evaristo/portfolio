@@ -1,11 +1,11 @@
 import React from 'react';
-import { ContentMail, ContentSocial, Divisor } from './styles';
+import { ContentMail, ContentSocial, Divisor, Container } from './styles';
 import { FiInstagram, FiLinkedin, FiGithub } from 'react-icons/fi';
 import { FaWhatsapp } from 'react-icons/fa';
 
 export function PersonalInfo () {
   return (
-    <>
+    <Container>
       <ContentSocial>
         <a href='https://github.com/gustavo-evaristo' target="_blank" rel="noreferrer">
           <FiGithub />
@@ -33,6 +33,6 @@ export function PersonalInfo () {
         <Divisor/>
       </ContentMail>
 
-    </>
+    </Container>
   );
 }

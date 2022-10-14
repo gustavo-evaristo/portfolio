@@ -1,5 +1,11 @@
 import { styled } from '../../styles';
 
+export const Container = styled('div', {
+  '@media (max-width: 900px)': {
+    display: 'none',
+  }
+});
+
 export const ContentSocial = styled('section', {
   width: 100,
   padding: '0 20px',
