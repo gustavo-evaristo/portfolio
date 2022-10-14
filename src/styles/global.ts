@@ -18,7 +18,6 @@ export const globalStyles = globalCss({
     margin: 0,
     fontFamily: '$mono',
     boxSizing: 'border-box',
-    scrollbarColor: 'red',
     userSelect: 'none',
   },
 
@@ -31,6 +30,7 @@ export const globalStyles = globalCss({
     width: 6,
     borderRadius: 12
   },
+  
   '::-webkit-scrollbar-track': {
     background: 'transparent'
   },
