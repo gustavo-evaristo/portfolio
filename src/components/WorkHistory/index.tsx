@@ -32,7 +32,7 @@ export function WorkHistory () {
     <Container id="experience">
       <SectionTitle sectionNumber='02' title='Experiência' style={{ marginBottom: 50 }}/>
 
-      <div>
+      <div data-aos="fade">
         <ul>
           {companys.map(company => (
             <WorkList onClick={() => setActiveCompany(company)} key={company.name} border={activeCompany.name == company.name ? 'active' : 'notActive'}>{company.name}</WorkList>

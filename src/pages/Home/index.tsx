@@ -17,15 +17,15 @@ export function Home () {
       <Content>
       
         <Heading>
-          <span>Olá, meu nome é</span>
+          <h3 data-aos="fade-up" data-aos-duration="600" data-aos-delay="1200">Olá, meu nome é</h3>
 
-          <h1>Gustavo Evaristo.<br/></h1>
+          <h1 data-aos="fade-up" data-aos-duration="600" data-aos-delay="1400">Gustavo Evaristo.<br/></h1>
         
-          <h2>Desenvolvedor web.</h2>
+          <h2 data-aos="fade-up" data-aos-duration="600" data-aos-delay="1600">Desenvolvedor web.</h2>
 
-          <h4>Sou um analista de sistemas especializado em desenvolver e projetar soluções digitais excepcionais. Atualmente, estou focado no desenvolvimento de sistemas para a internet e aplicativos mobile. Vou te ajudar a transformar a sua ideia em <span>realidade</span>.</h4>
+          <h4 data-aos="fade-up" data-aos-duration="600" data-aos-delay="1800">Sou um analista de sistemas especializado em desenvolver e projetar soluções digitais excepcionais. Atualmente, estou focado no desenvolvimento de sistemas para a internet e aplicativos mobile. Vou te ajudar a transformar a sua ideia em <span>realidade</span>.</h4>
 
-          <Button text='Conheça meus projetos' onClick={toProjects} /> 
+          <Button text='Conheça meus projetos' onClick={toProjects} data-aos="fade-up" data-aos-duration="600" data-aos-delay="2000" /> 
         </Heading>
 
         <About />

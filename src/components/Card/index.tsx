@@ -68,7 +68,7 @@ export function Card () {
 
   
   return (
-    <Container>
+    <Container data-aos="fade">
 
       <h3>Outros Projetos Notáveis</h3>
 

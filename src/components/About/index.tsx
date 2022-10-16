@@ -14,7 +14,7 @@ export function About () {
       
       <SectionTitle sectionNumber='01' title='Sobre' />
 
-      <Description>
+      <Description data-aos="fade">
         <p>
             Olá! Meu nome é Gustavo e minha paixão por tecnologia começou desde a minha infância, onde eu tentava descobrir como funcionava meus jogos online favoritos, e acabei conhecendo o mundo do desenvolvimento.<br /><br />
             Sou formado em <span>Técnico em informática</span> Pela instituição SENAC, e <span>Análise e Desenvolvimento de Sistemas</span> pela faculdade Impacta de Tecnologia.<br /><br />

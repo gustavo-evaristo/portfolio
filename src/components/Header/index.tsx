@@ -35,43 +35,47 @@ export function Header() {
     });
   });
 
+  const menuOptions = [
+    {
+      link: '#about',
+      title: 'Sobre',
+      delay: 200,
+    },
+    {
+      link: '#experience',
+      title: 'Experiência',
+      delay: 400,
+    },
+    {
+      link: '#projects',
+      title: 'Trabalhos',
+      delay: 600,
+    },
+    {
+      link: '#contact',
+      title: 'Contato',
+      delay: 800,
+    },
+  ];
+
 
   return (
     <Container display={showHeader ? 'show': 'hidden'} shadow={shadow ? 'withShadow' : 'withoutShadown'}>
-      <img src="/logo.png" />
+      <img src="/logo.png" data-aos="fade-down" />
 
-      <Content>
+      <Content >
         <ul>
-          <li>
-            <a href="#about">
-              <span>01. </span>
-            Sobre
-            </a>
-          </li>
-
-          <li>
-            <a href="#experience">
-              <span>02. </span>
-            Experiência
-            </a>
-          </li>
-
-          <li>
-            <a href="#projects">
-              <span>03. </span>
-            Trabalhos
-            </a>
-          </li>
-
-          <li>
-            <a href="#contact">
-              <span>04. </span>
-            Contato
-            </a>
-          </li>
+          {menuOptions.map(({ title, link, delay }, index) => (
+            <li key={title} data-aos="fade-down" data-aos-delay={delay} >
+              <a href={link}>
+                <span>{`0${index + 1}`}. </span>
+                {title}
+              </a>
+            </li>
+          ))}
         </ul>
 
-        <Button text='Resumo' onClick={toResume} />
+        <Button text='Resumo' onClick={toResume} data-aos="fade-down" data-aos-delay="1000" />
       </Content>
 
     </Container>

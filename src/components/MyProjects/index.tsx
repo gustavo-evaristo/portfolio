@@ -60,7 +60,7 @@ export function MyProjects () {
     <Container id="projects">
       <SectionTitle sectionNumber='03' title='Alguns de Meus Projetos' />
 
-      <div>
+      <div data-aos="fade">
         {
           projects.map(project => (
             <a key={project.url} href={project.url} target="_blank" rel="noreferrer">

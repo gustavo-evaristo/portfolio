@@ -8,7 +8,7 @@ export function Contact () {
   }
   
   return (
-    <Container id="contact">
+    <Container id="contact" data-aos="fade">
       <span>04. Próximo Passo</span>
       <h3>Entre em Contato</h3>
       <h4>Vamos conversar! estou a disposição para entender o seu momento, colocar suas ideias em prática e desenvolver o seu projeto.</h4>

@@ -8,7 +8,7 @@ interface Props extends React.HTMLAttributes<HTMLDivElement>{
 
 export function SectionTitle ({ sectionNumber, title, ...rest }: Props) {
   return (
-    <Container {...rest}>
+    <Container {...rest} data-aos="fade">
       <h3>{sectionNumber}. <span>{title}</span></h3>
       <hr />
     </Container>

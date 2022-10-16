@@ -11,7 +11,7 @@ export const Content = styled('div', {
 });
 
 export const Heading = styled('section', {
-  '& span': {
+  '& h3': {
     color: '$green_300',
     fontWeight: 400,
     fontSize: '1rem',

@@ -6,7 +6,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 export function PersonalInfo () {
   return (
     <Container>
-      <ContentSocial>
+      <ContentSocial data-aos="fade" data-aos-delay="2400">
         <a href='https://github.com/gustavo-evaristo' target="_blank" rel="noreferrer">
           <FiGithub />
         </a>
@@ -26,7 +26,7 @@ export function PersonalInfo () {
         <Divisor />
       </ContentSocial>
 
-      <ContentMail>
+      <ContentMail data-aos="fade" data-aos-delay="2400">
         <a href="mailto:gug.henri1@gmail.com" target="_blank" rel='noreferrer'>
           gug.henri1@gmail.com
         </a>
