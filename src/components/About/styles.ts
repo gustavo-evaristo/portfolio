@@ -23,7 +23,7 @@ export const Description = styled('div', {
     flexWrap: 'wrap',
     flexDirection: 'column',
 
-    '& p': {
+    '& div > p': {
       marginBottom: 32,
     },
   },

@@ -58,9 +58,6 @@ export function Header() {
     },
   ];
 
-  console.log(window.innerWidth);
-
-
   return (
     <Container display={showHeader ? 'show': 'hidden'} shadow={shadow ? 'withShadow' : 'withoutShadown'}>
       <img src="/logo.png" data-aos="fade-down" />
