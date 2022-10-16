@@ -54,9 +54,11 @@ export const Heading = styled('section', {
     fontFamily: '$sans',
     lineHeight: 1.7,
     margin: '18px 0 40px',
-
+    textAlign: 'justify',
+    
     '@media (min-width: 700px)': {
       fontSize: '1rem',
+      textAlign: 'left',
     },
 
     '& span': {

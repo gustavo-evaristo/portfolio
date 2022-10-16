@@ -4,10 +4,12 @@ export const Container = styled('section', {
   marginTop: 200,
   display: 'flex',
   flexDirection: 'column',
+  textAlign: 'justify',
   
   '@media (min-width: 1000px)': {
     marginTop: 320,
     paddingLeft: 32,
+    textAlign: 'left',
   }
 });
 

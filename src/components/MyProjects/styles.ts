@@ -13,6 +13,11 @@ export const Container = styled('section', {
     marginTop: 48,
     display: 'flex',
     flexWrap: 'wrap',
+    justifyContent: 'center',
+    
+    '@media (min-width: 700px)': {
+      justifyContent: 'flex-start',
+    },
 
     '& img': {
       width: 75,
