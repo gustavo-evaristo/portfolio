@@ -58,6 +58,8 @@ export function Header() {
     },
   ];
 
+  console.log(window.innerWidth);
+
 
   return (
     <Container display={showHeader ? 'show': 'hidden'} shadow={shadow ? 'withShadow' : 'withoutShadown'}>
@@ -75,7 +77,7 @@ export function Header() {
           ))}
         </ul>
 
-        <Button text='Resumo' onClick={toResume} data-aos="fade-down" data-aos-delay="1000" />
+        <Button text='Resumo' onClick={toResume} data-aos="fade-down" data-aos-delay={window.innerWidth >= 800 ? '1000' : '200'} />
       </Content>
 
     </Container>
