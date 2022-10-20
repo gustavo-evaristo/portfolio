@@ -34,7 +34,7 @@ export const Description = styled('div', {
     fontSize: '1rem',
     lineHeight: 1.7,
     paddingRight: 42,
-    maxWidth: 500,
+    maxWidth: 800,
   },
 
   '& span': {
@@ -51,6 +51,7 @@ export const Description = styled('div', {
     '@media (min-width: 550px)': {
       width: 350,
       height: 350,
+      marginTop: 20
     }
   },
 
