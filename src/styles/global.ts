@@ -18,7 +18,6 @@ export const globalStyles = globalCss({
     margin: 0,
     fontFamily: '$mono',
     boxSizing: 'border-box',
-    userSelect: 'none',
   },
 
   body: {
